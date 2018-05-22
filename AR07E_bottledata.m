@@ -29,18 +29,3 @@ NO3_14_wMLR07 = B_07(1,2) + B_07(2,2)*data_14.T + B_07(3,2)*data_14.S + B_07(4,2
 %%% introduce anthropogenic increase in DIC). Also could try using this in the
 %%% Irminger Sea or elsewhere along section...
 
-%% Map of section
-%%%% Go back and add OUC glider locations to this map once available
-% figure(5); clf
-%     latminplot = 48; latmaxplot = 70;
-%     lonminplot = -55; lonmaxplot = 0;
-%     M = 15;
-% m_proj('miller','lat',[latminplot latmaxplot],'lon',[lonminplot lonmaxplot])
-% m_plot(data_05.lon, data_05.lat,'b.','markersize',M); hold on; %AR07E 2005
-% m_plot(data_07.lon, data_07.lat,'k.','markersize',M); hold on; %AR07E 2007
-% m_plot(data_14.lon(ind), data_14.lat(ind),'r.','markersize',M); hold on; %AR07E 2014
-% m_plot(-40-34.5/60, 59+56.7/60, 'm.','markersize',M*1.5); hold on; %OOI Irminger site
-% m_grid('box','fancy'); m_coast('patch',nicecolor('wwk'));
-% legend('','AR07E 2005','AR07E 2007','AR07E 2014','OOI Irminger Array','location','southwest')
-
-
